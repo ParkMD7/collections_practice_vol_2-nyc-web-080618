@@ -37,6 +37,7 @@ def count_elements(array)
 
   array.each do |a, b|
     binding.pry
+  end
 
 
 end
