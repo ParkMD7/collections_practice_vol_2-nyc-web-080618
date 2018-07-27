@@ -73,6 +73,8 @@ def organize_schools(hash)
       #binding.pry
         if new_hash.keys.include?(city)
           new_hash[city] << loc_key
+        else
+          
     end
   end
   
