@@ -76,8 +76,7 @@ def organize_schools(hash)
         else
           new_hash[city] = []
           new_hash[city] << loc_key
+        end
     end
   end
-  
-  
 end
