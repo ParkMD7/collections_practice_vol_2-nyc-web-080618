@@ -44,12 +44,12 @@ end
 
 
 
-def merge_data(key, data)
+def merge_data(key, value)
   key.each do |key_hash|
   #binding.pry
-    data.each do |data_hash|
+    value.each do |value_hash|
     #binding.pry
-     key_hash.merge!(data_hash[name_hash[:first_name]])
+     key_hash.merge!(value_hash[key_hash[:first_name]])
     end  
   end
 end
