@@ -47,6 +47,7 @@ end
 def merge_data(key, data)
   merged = {}
   
+  key.each do |name_hash|
   
   
   
