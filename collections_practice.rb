@@ -65,7 +65,10 @@ end
 
 
 def organize_schools(hash)
-  new_hash = 
+  new_hash = {}
+  
+  hash.each do |a, b|
+  end
   
   
 end
