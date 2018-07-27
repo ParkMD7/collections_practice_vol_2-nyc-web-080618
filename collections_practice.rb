@@ -39,8 +39,7 @@ def count_elements(array)
     #binding.pry
       count_array << {:name => elements[:name], :count=> array.count(elements)}
   end
-
-
+  count_array
 end
 
 
