@@ -79,4 +79,5 @@ def organize_schools(hash)
         end
     end
   end
+  locs
 end
