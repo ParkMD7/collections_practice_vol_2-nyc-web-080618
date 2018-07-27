@@ -69,8 +69,9 @@ def organize_schools(hash)
   
   hash.each do |school_name, location|
   #binding.pry
-    location.each do |a, b|
-      binding.pry
+    location.each do |loc_key, city|
+      #binding.pry
+        if result.keys.include?(city)
     end
   end
   
