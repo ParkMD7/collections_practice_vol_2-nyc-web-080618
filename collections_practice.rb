@@ -31,7 +31,7 @@ end
 
 
 def count_elements(array)
-  array 
+  count_array = []
 
 
 
