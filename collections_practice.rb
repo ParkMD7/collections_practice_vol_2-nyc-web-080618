@@ -45,13 +45,11 @@ end
 
 
 def merge_data(key, data)
-  merged = {}
-  
   key.each do |name_hash|
-  data.each do |hash|
-  
-  
-  
+    data.each do |hash|
+     name_hash.merge!(hash[name_hash[:first_name]])
+    end  
+  end
 end
 
 
