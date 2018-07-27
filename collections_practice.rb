@@ -45,6 +45,11 @@ end
 
 
 def merge_data
+  merged = {}
+  
+  
+  
+  
   
 end
 
