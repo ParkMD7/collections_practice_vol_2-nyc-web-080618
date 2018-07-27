@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(array)
   array.all? do |name|
     name.start_with?("r")
@@ -34,6 +36,7 @@ def count_elements(array)
   count_array = []
 
   array.each do |a, b|
+    binding.pry
 
 
 end
