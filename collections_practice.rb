@@ -35,8 +35,9 @@ end
 def count_elements(array)
   count_array = []
 
-  array.each do |a, b|
-    binding.pry
+  array.each do |elements|
+    #binding.pry
+      count_array << {:name => elements[:name], :count=> array.count(elements)}
   end
 
 
