@@ -67,8 +67,11 @@ end
 def organize_schools(hash)
   new_hash = {}
   
-  hash.each do |a, b|
-  binding.pry
+  hash.each do |school_name, location|
+  #binding.pry
+    location.each do |a, b|
+      binding.pry
+    end
   end
   
   
