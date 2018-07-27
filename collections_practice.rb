@@ -72,7 +72,7 @@ def organize_schools(hash)
     location.each do |loc_key, city|
       #binding.pry
         if new_hash.keys.include?(city)
-          
+          new_hash[city] << loc_key
     end
   end
   
