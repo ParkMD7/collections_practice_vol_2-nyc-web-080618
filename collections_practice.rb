@@ -74,7 +74,8 @@ def organize_schools(hash)
         if new_hash.keys.include?(city)
           new_hash[city] << loc_key
         else
-          
+          new_hash[city] = []
+          new_hash[city] << loc_key
     end
   end
   
