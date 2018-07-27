@@ -64,6 +64,8 @@ end
 
 
 
-def organize_schools
+def organize_schools(hash)
+  new_hash = 
+  
   
 end
