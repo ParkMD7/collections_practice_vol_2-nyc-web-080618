@@ -33,6 +33,7 @@ end
 def count_elements(array)
   count_array = []
 
+  array.each do |a, b|
 
 
 end
