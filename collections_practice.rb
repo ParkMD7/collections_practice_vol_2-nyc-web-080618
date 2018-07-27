@@ -46,7 +46,9 @@ end
 
 def merge_data(key, data)
   key.each do |name_hash|
+  binding.pry
     data.each do |hash|
+    #binding.pry
      name_hash.merge!(hash[name_hash[:first_name]])
     end  
   end
